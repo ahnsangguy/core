@@ -18,14 +18,14 @@ public class ApplicationContextSameBeanFindTest {
 	AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(SameBeanClass.class);
 	
 //	@Test
-//	@DisplayName("Å¸ÀÔÀ¸·Î Á¶È¸ ½Ã °°Àº Å¸ÀÔÀÌ µÑ ÀÌ»ó ÀÖÀ¸¸é Áßº¹ ¿À·ù°¡ ¹ß»ıÇÑ´Ù")
+//	@DisplayName("íƒ€ì…ìœ¼ë¡œ ì¡°íšŒ ì‹œ ê°™ì€ íƒ€ì…ì´ ë‘˜ ì´ìƒ ìˆìœ¼ë©´ ì¤‘ë³µ ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤")
 //	void findBeanByTypeDuplicate() {
 //		
 //		assertThrows(NoUniqueBeanDefinitionException.class, () -> ac.getBean(MemberRepository.class));
 //	}
 	
 //	@Test
-//	@DisplayName("Å¸ÀÔÀ¸·Î Á¶È¸ ½Ã °°Àº Å¸ÀÔÀÌ µÑ ÀÌ»ó ÀÖÀ¸¸é ºó ÀÌ¸§À» ÁöÁ¤ÇÏ¸é µÈ´Ù")
+//	@DisplayName("íƒ€ì…ìœ¼ë¡œ ì¡°íšŒ ì‹œ ê°™ì€ íƒ€ì…ì´ ë‘˜ ì´ìƒ ìˆìœ¼ë©´ ë¹ˆ ì´ë¦„ì„ ì§€ì •í•˜ë©´ ëœë‹¤")
 //	void findBeanByName() {
 //		
 //		MemberRepository bean = ac.getBean("memberRepository1", MemberRepository.class);
@@ -33,7 +33,7 @@ public class ApplicationContextSameBeanFindTest {
 //	}
 	
 	@Test
-	@DisplayName("Æ¯Á¤ Å¸ÀÔÀ» ¸ğµÎ Á¶È¸ÇÏ±â")
+	@DisplayName("íŠ¹ì • íƒ€ì…ì„ ëª¨ë‘ ì¡°íšŒí•˜ê¸°")
 	void findAllBeanByType() {
 		
 		Map<String, MemberRepository> beansOfType = ac.getBeansOfType(MemberRepository.class);

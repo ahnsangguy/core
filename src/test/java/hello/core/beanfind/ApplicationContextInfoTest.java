@@ -12,7 +12,7 @@ public class ApplicationContextInfoTest {
 	AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 	
 //	@Test
-//	@DisplayName("¸ğµç ºó Ãâ·Â")
+//	@DisplayName("ëª¨ë“  ë¹ˆ ì¶œë ¥")
 //	void findAllBean() {
 //		
 //		String[] beanDefinitionNames = ac.getBeanDefinitionNames();
@@ -25,7 +25,7 @@ public class ApplicationContextInfoTest {
 // 	}
 	
 	@Test
-	@DisplayName("¾ÖÇÃ¸®ÄÉÀÌ¼Ç ºó Ãâ·Â")
+	@DisplayName("ì• í”Œë¦¬ì¼€ì´ì…˜ ë¹ˆ ì¶œë ¥")
 	void findApplicationAllBean() {
 		
 		String[] beanDefinitionNames = ac.getBeanDefinitionNames();
@@ -43,7 +43,7 @@ public class ApplicationContextInfoTest {
 	}
 	
 //	@Test
-//	@DisplayName("½ºÇÁ¸µ¿¡¼­ »ç¿ëÇÏ´Â ºó Ãâ·Â")
+//	@DisplayName("ìŠ¤í”„ë§ì—ì„œ ì‚¬ìš©í•˜ëŠ” ë¹ˆ ì¶œë ¥")
 //	void findFrameWorkAllBean() {
 //		
 //		String[] beanDefinitionNames = ac.getBeanDefinitionNames();

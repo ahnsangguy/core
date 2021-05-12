@@ -15,7 +15,7 @@ public class ApplicationContextBasicFindTest {
 	AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 	
 //	@Test
-//	@DisplayName("ºó ÀÌ¸§À¸·Î Á¶È¸")
+//	@DisplayName("ë¹ˆ ì´ë¦„ìœ¼ë¡œ ì¡°íšŒ")
 //	void findBeanByName() {
 //		
 //		MemberService memberService = ac.getBean("memberService", MemberService.class);
@@ -23,7 +23,7 @@ public class ApplicationContextBasicFindTest {
 //	}
 	
 //	@Test
-//	@DisplayName("ÀÌ¸§ ¾øÀÌ Å¸ÀÔÀ¸·Î¸¸ Á¶È¸")
+//	@DisplayName("ì´ë¦„ ì—†ì´ íƒ€ì…ìœ¼ë¡œë§Œ ì¡°íšŒ")
 //	void findBeanByType() {
 //		
 //		MemberService memberService = ac.getBean(MemberService.class);
@@ -31,7 +31,7 @@ public class ApplicationContextBasicFindTest {
 //	}
 	
 //	@Test
-//	@DisplayName("±¸Ã¼ Å¸ÀÔÀ¸·Î Á¶È¸")
+//	@DisplayName("êµ¬ì²´ íƒ€ì…ìœ¼ë¡œ ì¡°íšŒ")
 //	void findBeanByName2() {
 //		
 //		MemberService memberService = ac.getBean("memberService", MemberServiceImpl.class);
@@ -39,7 +39,7 @@ public class ApplicationContextBasicFindTest {
 //	}
 	
 	@Test
-	@DisplayName("ºó ÀÌ¸§À¸·Î Á¶È¸X")
+	@DisplayName("ë¹ˆ ì´ë¦„ìœ¼ë¡œ ì¡°íšŒX")
 	void findBeanByNameX() {
 		
 //		MemberService memberService = ac.getBean("xxxxx", MemberService.class);
