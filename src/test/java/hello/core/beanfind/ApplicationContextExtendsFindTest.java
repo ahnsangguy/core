@@ -17,14 +17,14 @@ public class ApplicationContextExtendsFindTest {
 	AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(TestConfig.class);
 	
 //	@Test
-//	@DisplayName("ºÎ¸ğ Å¸ÀÔÀ¸·Î Á¶È¸ ½Ã ÀÚ½ÄÀÌ µÑ ÀÌ»ó ÀÖÀ¸¸é Áßº¹ ¿À·ù°¡ ¹ß»ıÇÑ´Ù")
+//	@DisplayName("ë¶€ëª¨ íƒ€ì…ìœ¼ë¡œ ì¡°íšŒ ì‹œ ìì‹ì´ ë‘˜ ì´ìƒ ìˆìœ¼ë©´ ì¤‘ë³µ ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤")
 //	void findBeanByParentTypeDuplicate() {
 //		
 //		assertThrows(NoUniqueBeanDefinitionException.class, () -> ac.getBean(DiscountPolicy.class));
 //	}
 	
 //	@Test
-//	@DisplayName("ºÎ¸ğ Å¸ÀÔÀ¸·Î Á¶È¸ ½Ã ÀÚ½ÄÀÌ µÑ ÀÌ»ó ÀÖÀ¸¸é ºó ÀÌ¸§À» ÁöÁ¤ÇÏ¸é µÈ´Ù")
+//	@DisplayName("ë¶€ëª¨ íƒ€ì…ìœ¼ë¡œ ì¡°íšŒ ì‹œ ìì‹ì´ ë‘˜ ì´ìƒ ìˆìœ¼ë©´ ë¹ˆ ì´ë¦„ì„ ì§€ì •í•˜ë©´ ëœë‹¤")
 //	void findBeanByParentTypeBeanName() {
 //		
 //		DiscountPolicy bean = ac.getBean("rate", DiscountPolicy.class);
@@ -32,7 +32,7 @@ public class ApplicationContextExtendsFindTest {
 //	}
 	
 //	@Test 
-//	@DisplayName("Æ¯Á¤ ÇÏÀ§ Å¸ÀÔÀ¸·Î Á¶È¸")
+//	@DisplayName("íŠ¹ì • í•˜ìœ„ íƒ€ì…ìœ¼ë¡œ ì¡°íšŒ")
 //	void findBeanBySubType() {
 //		
 //		DiscountPolicy bean = ac.getBean(RateDiscountPolicy.class);
@@ -40,7 +40,7 @@ public class ApplicationContextExtendsFindTest {
 //	}
 	
 //	@Test 
-//	@DisplayName("ºÎ¸ğ Å¸ÀÔÀ¸·Î ¸ğµÎ Á¶È¸ÇÏ±â")
+//	@DisplayName("ë¶€ëª¨ íƒ€ì…ìœ¼ë¡œ ëª¨ë‘ ì¡°íšŒí•˜ê¸°")
 //	void findBeanByParentType() {
 //		
 //		Map<String, DiscountPolicy> beansOfType = ac.getBeansOfType(DiscountPolicy.class);
@@ -55,7 +55,7 @@ public class ApplicationContextExtendsFindTest {
 //	}
 	
 	@Test 
-	@DisplayName("ºÎ¸ğ Å¸ÀÔÀ¸·Î ¸ğµÎ Á¶È¸ÇÏ±â - Object")
+	@DisplayName("ë¶€ëª¨ íƒ€ì…ìœ¼ë¡œ ëª¨ë‘ ì¡°íšŒí•˜ê¸° - Object")
 	void findAllBeanByObjectType() {
 		
 		Map<String, Object> beansOfType = ac.getBeansOfType(Object.class);

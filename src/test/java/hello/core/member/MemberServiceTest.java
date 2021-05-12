@@ -11,7 +11,7 @@ public class MemberServiceTest {
 	
 	MemberService memberService;
 	
-	@BeforeEach // @Test ½ÇÇà Àü ¸ÕÀú ÇØ´ç ¸Þ¼­µå¸¦ ½ÇÇà
+	@BeforeEach // @Test ì‹¤í–‰ ì „ ë¨¼ì € í•´ë‹¹ ë©”ì„œë“œë¥¼ ì‹¤í–‰
 	public void beforeEach() {
 		
 		AppConfig appConfig = new AppConfig();

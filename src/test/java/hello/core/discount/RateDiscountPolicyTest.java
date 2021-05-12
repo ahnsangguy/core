@@ -13,7 +13,7 @@ class RateDiscountPolicyTest {
 	RateDiscountPolicy discountPolicy = new RateDiscountPolicy();
 	
 	@Test
-	@DisplayName("VIP´Â 10% ÇÒÀÎÀÌ Àû¿ë µÇ¾î¾ß ÇÑ´Ù.")
+	@DisplayName("VIPëŠ” 10% í• ì¸ì´ ì ìš© ë˜ì–´ì•¼ í•œë‹¤.")
 	void vip_o() {
 		
 		Member member = new Member(1L, "memberVIP", Grade.VIP);
@@ -24,7 +24,7 @@ class RateDiscountPolicyTest {
 	}
 	
 	@Test
-	@DisplayName("VIP°¡ ¾Æ´Ñ °æ¿ì ÇÒÀÎ Àû¿ëÀÌ µÇÁö ¾Ê¾Æ¾ß ÇÑ´Ù.")
+	@DisplayName("VIPê°€ ì•„ë‹Œ ê²½ìš° í• ì¸ ì ìš©ì´ ë˜ì§€ ì•Šì•„ì•¼ í•œë‹¤.")
 	void vip_x() {
 		
 		Member member = new Member(1L, "memberVIP", Grade.BASIC);
