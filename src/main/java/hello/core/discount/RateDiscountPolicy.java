@@ -7,7 +7,6 @@ import hello.core.member.Grade;
 import hello.core.member.Member;
 
 @Component
-@Qualifier("rateDiscountPolicy")
 public class RateDiscountPolicy implements DiscountPolicy {
 	
 	private int discountPersent = 10;
