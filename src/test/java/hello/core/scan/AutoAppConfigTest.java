@@ -25,22 +25,22 @@ public class AutoAppConfigTest {
 		 */
 		ApplicationContext ac = new AnnotationConfigApplicationContext(AutoAppConfig.class);
 		
-//		MemberService memberService = ac.getBean(MemberService.class);
-//		OrderService orderService = ac.getBean(OrderService.class);
-////		assertThat(memberService).isInstanceOf(MemberService.class);
-//		
-//		Member member = new Member(1L, "memberA", Grade.VIP);
-//		memberService.join(member);
-//		
-//		memberService.findMember(1L);
-//		
-//		Member findMember = memberService.findMember(1L);
-//		
-//		System.out.println("New Member : " + member.getName());
-//		System.out.println("Find Member : " + findMember.getName());
-//		
-//		Order order = orderService.createOrder(1L, "itemA", 20000);
-//
-//		System.out.println(order);
+		MemberService memberService = ac.getBean(MemberService.class);
+		OrderService orderService = ac.getBean(OrderService.class);
+//		assertThat(memberService).isInstanceOf(MemberService.class);
+		
+		Member member = new Member(1L, "memberA", Grade.VIP);
+		memberService.join(member);
+		
+		memberService.findMember(1L);
+		
+		Member findMember = memberService.findMember(1L);
+		
+		System.out.println("New Member : " + member.getName());
+		System.out.println("Find Member : " + findMember.getName());
+		
+		Order order = orderService.createOrder(1L, "itemA", 20000);
+
+		System.out.println(order);
 	}
 }
